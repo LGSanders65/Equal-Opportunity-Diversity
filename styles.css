@@ -1,0 +1,24 @@
+/* Global Layout Set-up */      
+* {
+box-sizing: border-box;
+}
+
+body {
+    margin: ;
+    padding: ;
+    text-align: ;
+    font-family: ;
+    color: ;
+    background: ;
+}
+/* Link Styles */   
+
+a {
+    text-decoration: ;
+    color: ;
+}
+a:hover :{
+    color: ;
+}
+
+/* Section Styles */
