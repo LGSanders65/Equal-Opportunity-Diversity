@@ -22,3 +22,9 @@ a:hover :{
 }
 
 /* Section Styles */
+
+<style>
+.aligncenter {
+    text-align: center;
+}
+</style>
