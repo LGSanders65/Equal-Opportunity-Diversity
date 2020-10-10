@@ -1,24 +1,33 @@
-/* Global Layout Set-up */      
-* {
-box-sizing: border-box;
-}
-
 body {
-    margin: ;
-    padding: ;
-    text-align: ;
-    font-family: ;
-    color: ;
-    background: ;
+background: white;
+text-align: center;
 }
-/* Link Styles */   
+#main{
+	width: 1000px;
+	height: 600px;
+	background: white;
+	margin: 25px auto;
+	padding: 10px;
+}
+h1 {
+	text-align: center;
+	font-family:"Times New Roman";
+    font: 24pt;
+    color: #1c801c;
+}
+hr {
+	height: 2px;
+	color:rgba(255, 0, 0, 0.733);	
+}
+p {
+font-family:"Calibri";
+font-size: 12pt;
+text-align: center;
+color: #000000
+;
+}
+.EOD3 {
+width: 100px;
+height: 101px;
 
-a {
-    text-decoration: ;
-    color: ;
 }
-a:hover :{
-    color: ;
-}
-
-/* Section Styles */
