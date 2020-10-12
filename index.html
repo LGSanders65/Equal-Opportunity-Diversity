@@ -5,8 +5,26 @@
  <title>Equal Opportunity Diversity</title>
   
   <link href="styles.css" type="text/css" rel=stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+  .wrapper {overflow: auto;}
+
+#main {margin-left: 4px;}
+
+#leftsidebar {
+float: none;
+width: auto;
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+
+
+
+}
+<div class="wrapper">
+  <div id="leftsidebar">
+
 img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -40,5 +58,7 @@ img:hover {
       </center>
 
       <center>Click image or here</center>
+    </div>
+
 </body>
 </html>
