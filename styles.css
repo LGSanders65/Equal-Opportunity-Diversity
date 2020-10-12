@@ -70,3 +70,8 @@ span.myRedD{
  span.myRedL{
 	color:#FF0000;
  }
+ img {
+    margin: 20px;
+    transition: all 400ms; 
+}
+
