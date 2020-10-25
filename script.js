@@ -1,2 +1,2 @@
 
-alert("Hello, and Welcome!");
+alert("Hello, and Welcome!  Thanks for visiting my website.");
