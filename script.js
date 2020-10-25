@@ -1,2 +1,2 @@
 
-alert("Hey, you're back for more?");
+alert("Hello, and Welcome!");
