@@ -20,11 +20,11 @@
     img {
       display: none;
     }
-  
+}
   
   /* Target viewport sizes 576px and wider */
   
-  @media (min-with: 576px) {
+  @media (min-width: 576px) {
     .logo {
       float: left;
     }
@@ -38,7 +38,7 @@
     h2 {
       margin-bottom: 1.5em;
     }
-  
+  }
   
   /* Target a viewport range wider than 575px and narrower than 992px */
   
@@ -47,7 +47,7 @@
       float: left;
       margin-left: 20px;
     }
-  
+  }
   
   /* Target viewport sizes 768px and wider */
   
@@ -60,7 +60,7 @@
       float: right;
       width: 30%;
     }
-  
+  }
   
   /* Target viewport sizes 992px and wider */
   
@@ -68,5 +68,5 @@
     nav {
       float: right;
     }
-  
+  }
   
