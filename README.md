@@ -6,7 +6,7 @@
 
 #### My project was built mobile first and my media queries does scale up to handle larger devices
 
-##### My project shows in second.html that images have been resized.
+##### My project shows in second.html that images have been resized
 
 ###### I have 50 plus commits
 
