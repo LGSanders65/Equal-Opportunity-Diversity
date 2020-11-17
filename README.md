@@ -4,7 +4,7 @@ Diversity is valuable to both associates and businesses. Although associates are
 
 ## Index.html
 
-This file includes: normalize.css, style.css, media-queries.css, script.js, and meta name files. Main page has scrolling clickable image or link below image that links to second.html page, and footer ®2020 Lisa Sanders
+This file includes links to: styles.css, media-queries.css, script.js, and meta name files. Main page has scrolling clickable image and footer that routes to second.html page.
 
 [https://user-images.githubusercontent.com/70184030/99423565-ad40a100-28ce-11eb-8758-d01d96360e98.png]
 
@@ -22,4 +22,4 @@ This file includes: a pop up text that says "Hello, and Welcome! Thanks for visi
 
 ###### commits
 
-54 commits
+58 commits
