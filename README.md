@@ -1,4 +1,4 @@
-My project is about: How Diversity is Achieved and also Critical
+<i>My project is about: How Diversity is Achieved and also Critical</i>
 
 Index.html file contains main page with link to second.html page
 
