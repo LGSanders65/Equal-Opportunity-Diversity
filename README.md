@@ -1,4 +1,4 @@
-<i>My project is about: How Diversity is Achieved and also Critical</i>
+# Equal Opportunity Diversity is Achieved and Critical
 
 Index.html file contains main page with link to second.html page
 
