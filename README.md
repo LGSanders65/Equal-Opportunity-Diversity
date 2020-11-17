@@ -4,7 +4,9 @@ Diversity is valuable to both associates and businesses. Although associates are
 
 ## Index.html
 
-This file includes: normalize.css, styles.css, media-queries.css, script.js, and meta name files. Main page has scrolling clickable image and footer that routes to second.html page.
+ This file includes: normalize.css, styles.css, media-queries.css, script.js, and meta name files. Main page has scrolling clickable image and footer that  to second.html page.
+
+This file includes links to: styles.css, media-queries.css, script.js, and meta name files. Main page has scrolling clickable image and footer that routes to second.html page.
 
 [https://user-images.githubusercontent.com/70184030/99423565-ad40a100-28ce-11eb-8758-d01d96360e98.png]
 
