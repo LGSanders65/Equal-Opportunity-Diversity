@@ -1,36 +1,111 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Equal Opportunity Diversity</title>
   <link href="styles.css" rel="stylesheet">
   <link href="media-queries.css" rel="stylesheet">
   <script src="script.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: yellow;
+    }
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    .topnav a:hover {
+      background-color: green;
+      color: black;
+    }
+    .topnav a.active {
+      background-color: yellow;
+      color: black;
+    }
+    .topnav .icon {
+      display: none;
+    }
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {
+        display: none;
+      }
+    }
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {
+        position: relative;
+      }
+    }
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+  </style>
 </head>
-
-<body background-color: yellow;>
-  <div id="main">
-    <center>
-      <h1 style="color:green" ;>Equal Opportunity Diversity<h1 style="color:red" ;>As Our World Turns...</h1>
-        <hr>
-        <a href="second.html">
-          <marquee><img src="yellow%20background%20galaxy_files/image001.png" alt="Project Image" width="50%"
-              height="50%"></marquee>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <div>
-            <center><button style="color:green" class="button-primary" type="click">Click to explore</button></center>
-          </div>
-          <br />
-          <br />
-          <footer class="main-footer">
-            <center><span>&copy;2020 Lisa G. Sanders</span></center>
-          </footer>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#feedback">Feedback </a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>
   </div>
-</body>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  <title>Equal Opportunity Diversity</title>
+  <link href="styles.css" rel="stylesheet">
+    <body style="background-color: yellow;">
 
+      <center><i>
+          <h1 class="myGreen" style="color: rgb(0, 128, 53);" style="font: size 72pt;">Equal Opportunity Diversity</h1></span>
+          <h2 class="myRed" style="color: rgb(199, 13, 13);"style="font: size 72pt;">As Our World Turns</h2></span>
+          <hr>
+          <a href="second.html">
+            <marquee><img src="yellow%20background%20galaxy_files/image001.png" alt="Project Image" width="50%"
+                height="50%"></marquee>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+    <div>
+              <center><button style="color:green" class="button-primary" type="click">Click to explore</button></center>
+    </div>
+            <br />
+            <br />
+            <footer class="main-footer">
+              <center><span>&copy;2020 Lisa G. Sanders</span></center>
+            </footer>
+    </div>
+</body>
 </html>
