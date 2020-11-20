@@ -1,3 +1,10 @@
 
-alert("Hello, and Welcome!  Thanks for visiting my website.");
 
+function myMenuFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }

@@ -4,22 +4,14 @@
 <head>
     <title>Equal Opportunity Diversity</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active">Main page</a>
-        <a href="second.html">Second page</a>
-        <a href="third.html">Third page</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i></a>
-      </div>  
+     
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <br>
-        <br>
-            
-   <center><p><b>Please fill out Visitors Form</b></center></p><br>
+                 
+   
     
-        <form action="/action_page.php">
+        
           <style>
             body {
               margin: 0;
@@ -75,21 +67,42 @@
               }
           </style>
     </head>
-  <center>
-    <b><label for="fname">First name:</b></label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <b><label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br>
-   <b><label for="city">City:</label><br>
-  <input type="text" id="city" name="city" value="Louisville"><br>
-   <b><label for="state">State:</b></label><br>
-  <input type="text" id="state" name="state" value="Kentucky"></b><br><br>
-  <input type="submit" style="color:red" value="Submit"></center>
-</form> 
+  
 
 <body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Main page</a>
+    <a href="second.html">Second page</a>
+    <a href="third.html">Third page</a>
+    <a href="javascript:void(0);" class="icon" onclick="myMenuFunction()">
+        <i class="fa fa-bars"></i></a>
+  </div> 
+  <center><p><b>Please fill out Visitors Form</b></center></p><br>
+  <form name="myVisitorsForm" onsubmit="return validateForm(event)">
+    <center>
+      <b><label for="fname">First name:</b></label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <b><label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+     <b><label for="city">City:</label><br>
+    <input type="text" id="city" name="city"><br>
+     <b><label for="state">State:</b></label><br>
+    <input type="text" id="state" name="state"></b><br><br>
+    <input type="submit" style="color:red"></center>
+  </form> 
 
-<center><p>Thanks for visiting.</p></center>
+<script>function validateForm(ev) {
+  ev.preventDefault();
+  var visitorName = document.forms["myVisitorsForm"]["fname"].value;
+  if (visitorName == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  document.getElementById("myVisitorsName").innerHTML = visitorName;
+}</script>
+
+<center><p>Thanks for visiting<span id="myVisitorsName"></span>.</p></center>
+<script src="script.js"></script>
 
 </body>
 

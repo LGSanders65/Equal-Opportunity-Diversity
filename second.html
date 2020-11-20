@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
+
+<head>
   <title>Equal Opportunity Diversity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js"></script>
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <div class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Main page</a>
-    <a href="second.html">Second page</a>
-    <a href="third.html">Third page</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i></a>
-      </div>
-  
-<style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
     p::first-letter {
       color: red;
       font-weight: bold;
       text-shadow: 2px 2px 1px rgb(8, 7, 7);
       font-style: italic;
-      }
-      span::first-letter {
+    }
+
+    span::first-letter {
       color: red;
       font-weight: bold;
       text-shadow: 2px 2px 1px rgb(8, 7, 7);
       font-style: italic;
-      }
-      
+    }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
     }
+
     .topnav {
       overflow: hidden;
       background-color: yellow;
     }
+
     .topnav a {
       float: left;
       display: block;
@@ -45,46 +42,61 @@
       text-decoration: none;
       font-size: 17px;
     }
+
     .topnav a:hover {
       background-color: green;
       color: black;
     }
+
     .topnav a.active {
       background-color: yellow;
       color: black;
     }
+
     .topnav .icon {
       display: none;
     }
+
     @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {
         display: none;
       }
     }
-      .topnav a.icon {
-        float: right;
-        display: block;
-      }
+
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
     @media screen and (max-width: 600px) {
       .topnav.responsive {
         position: relative;
       }
     }
-      .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-      }
+
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
   </style>
 
 </head>
 
 <body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Main page</a>
+    <a href="second.html">Second page</a>
+    <a href="third.html">Third page</a>
+    <a href="javascript:void(0);" class="icon" onclick="myMenuFunction()">
+      <i class="fa fa-bars"></i></a>
+  </div>
   <div id="main">
     <hr>
     <div style="display:block;text-align:right">
@@ -148,13 +160,14 @@
       <br>
       <br />
 
-      
-    <p>
+
+      <p>
       <p style="text-align: left; font-size:60px">Educate</p>
       <p style="text-align: left; font-size:60px">Quality</p>
       <p style="text-align: left; font-size:60px">Understand</p>
       <p style="text-align: left; font-size:60px">Adopt</p>
       <p style="text-align: left; font-size:60px">Loyalty</p>
+      <p style="text-align: left; font-size:60px">Improve</p>
       <p style="text-align: left; font-size:60px">Think</p>
       <p style="text-align: left; font-size:60px">Yes you can</p>
 
@@ -170,10 +183,6 @@
       <p style="font-size:60px;"><i><span><b>I</span></i><sup>dentify</b></p>
       <p style="font-size:60px;"><i><span><b>T</span></i><sup>olorance</b></p>
       <p style="font-size:60px;"><i><span><b>Y</span></i><sup>ou can make a difference</b></p>
-
-
-
-      
 
       <br />
       <br />
@@ -223,7 +232,6 @@
       <br />
       <br />
       <br />
-
 
       <img src="https://user-images.githubusercontent.com/70184030/94340278-7fc23000-ffce-11ea-8649-ca5aa7bb8392.jpg"
         alt="EOD9" style="max-width:100%;">

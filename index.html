@@ -69,19 +69,10 @@
     <a href="index.html" class="active">Main page</a>
     <a href="second.html">Second page</a>
     <a href="third.html">Third page</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <a href="javascript:void(0);" class="icon" onclick="myMenuFunction()">
       <i class="fa fa-bars"></i></a>
   </div>
-  <script>
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
+ 
   <title>Equal Opportunity Diversity</title>
   <link href="styles.css" rel="stylesheet">
     <body style="background-color: yellow;">
@@ -90,8 +81,7 @@
           <h1 class="myGreen" style="color: rgb(0, 128, 53);" style="font: size 72pt;">Equal Opportunity Diversity</h1></span>
           <h2 class="myRed" style="color: rgb(199, 13, 13);"style="font: size 72pt;">As Our World Turns</h2></span>
           <hr>
-          <a href="second.html">
-            <marquee><img src="yellow%20background%20galaxy_files/image001.png" alt="Project Image" width="50%"
+            <marquee><img id="myWorld" src="yellow%20background%20galaxy_files/image001.png" alt="Project Image" width="50%"
                 height="50%"></marquee>
             <br />
             <br />
@@ -99,7 +89,7 @@
             <br />
             <br />
     <div>
-              <center><button style="color:green" class="button-primary" type="click">Click to explore</button></center>
+              <center><button onclick="myWorldHiddenFunction()" style="color:green" class="button-primary" type="click">Click to explore</button></center>
     </div>
             <br />
             <br />
@@ -107,5 +97,15 @@
               <center><span>&copy;2020 Lisa G. Sanders</span></center>
             </footer>
     </div>
+    <script>
+    function myWorldHiddenFunction() {
+      var x = document.getElementById("myWorld");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>

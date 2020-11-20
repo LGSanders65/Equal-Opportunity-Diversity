@@ -4,24 +4,28 @@ Diversity is valuable to both associates and businesses. Although associates are
 
 ## Index.html
 
- This file includes: normalize.css, styles.css, media-queries.css, script.js, and meta name files. Main page has scrolling clickable image and footer that  to second.html page.
+My hidden function is active once you select the click to explore button. Once selected, the image will be hidden, select again and the image will appear. The Hamburger Menu is linked to all three pages at the top of my website. Listed as: Main page, Second page, and Third page. I used Pseudo CSS so you can hover over the second and third page which will turn green. I added a footer at the bottom of the main page.
 
-This file includes links to: styles.css, media-queries.css, script.js, and meta name files. Main page has scrolling clickable image and footer that routes to second.html page.
+### Second.html
 
-[https://user-images.githubusercontent.com/70184030/99423565-ad40a100-28ce-11eb-8758-d01d96360e98.png]
+My Hamburger Menu is the same as the main and third page. The Hamburger Menu is linked to all three pages at the top of my website. Listed as: Main page, Second page, and Third page. I used Pseudo CSS so you can hover over the second and third page which will turn green. My images have been resized. Pseudo CSS was also used to make the first-letter color red and to change the font-style to italic.
 
-### second.html
+#### Third.html
 
-Includes body background color yellow on index.html page, once link is clicked, you will go to second.html page which shows width, height, margin, padding used. Text-align, font-family, font and color used. Span used and re-sizes of images.
+My Hamburger Menu includes the same Hamburger Menu as the main and second page. The Hamburger Menu is linked to all three pages at the top of my website. Listed as: Main page,
+Second page, and Third page. I added a Contact form to this page. If the form is submitted without info, a message will display: (Name must be filled out). If the form
+is filled out, once submitted, it will display the submitters first name. Example: Thanks for visiting Lisa.
 
-#### media-queries.css
+##### Media-queries.css
 
-My project was built mobile first and my @media queries does scale up to handle larger devices from less than max-width 576 pixels to wider than 576 pixels, which includes text-align, margin-bottom,float with nav margin top, padding, and widths.
+The @media-queries was used to build my project mobile first. My @media screen includes max-width and min-widths. My top nav entails using a:not(:first-child), top nav responsive, top nav a.icon float, with padding, margin, text-align and background included to make site compliant to query.
 
-##### script.js
+###### Script.js
 
-This file includes: a pop up text that says "Hello, and Welcome! Thanks for visiting my site on my main page.
+The script.js file houses the top nav menu function which links all html pages.
 
-###### commits
+####### Styles.css
+Manages the main pages background which is yellow. There is also a @media min-width used and a container.
 
-58 commits
+######## Commits
+To Github = 79
